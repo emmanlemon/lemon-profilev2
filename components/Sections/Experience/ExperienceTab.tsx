@@ -25,7 +25,7 @@ import { mobileBreakpointsMap } from 'config/theme'
 
 const ExperienceTab = () => {
   const { colorMode } = useColorMode()
-  const emphasis = useColorModeValue('teal.500', 'cyan.200')
+  const emphasis = useColorModeValue('teal.800', 'cyan.200')
   const borderColor = useColorModeValue('gray.300', 'gray.600')
   const activeBordercolor = useColorModeValue('teal.500', '#97DFFC')
   const isMobile = useBreakpointValue(mobileBreakpointsMap)

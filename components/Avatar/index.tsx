@@ -65,7 +65,7 @@ const Avatar = () => {
             aria-label="KojiroArt"
             rel="noreferrer"
           >
-            KojiroArt
+            LemonArt
           </Link>
         </Text>
       </MotionBox>

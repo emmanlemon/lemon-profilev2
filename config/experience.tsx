@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
+export type Company = 'IE' | 'Exlink' | 'Outsoar'
 
 export type CompanyDetail = {
   name: string
@@ -19,16 +19,16 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
-  Deloitte: {
-    name: 'Deloitte',
-    longName: 'Deloitte Consulthing Phils. Delivery Center',
-    subDetail: 'Consulthing Phils. Delivery Center',
-    url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+  IE: {
+    name: 'IE',
+    longName: 'IE Soft Technology',
+    // subDetail: 'Consulthing Phils. Delivery Center',
+    url: '',
+    position: 'Backend Developer',
+    duration: 'Feb 2021 - Present',
     logo: {
-      light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      light: '/worked_at_logos/ie_soft/ie_logo.png',
+      dark: '/worked_at_logos/ie_soft/ie_logo.png',
     },
     roles: [
       <>
@@ -62,16 +62,16 @@ export const Experiences: {
       </>,
     ],
   },
-  SCG: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
+  Exlink: {
+    name: 'Exlink',
+    longName: 'Exlink',
+    subDetail: 'Client Based From Outsoar',
+    url: 'https://exlink.com/',
+    position: 'Junior Web Developer',
+    duration: 'April 2023 - Nov 2023',
     logo: {
-      light: '/worked_at_logos/scg/SCG_400x400.jpg',
-      dark: '/worked_at_logos/scg/SCG.png',
+      light: '/worked_at_logos/exlink/exlink_logo.png',
+      dark: '/worked_at_logos/exlink/exlink_logo.png',
     },
     roles: [
       <>
@@ -123,16 +123,16 @@ export const Experiences: {
       </>,
     ],
   },
-  Blotocol: {
-    name: 'Blotocol',
-    longName: 'Blotocol Philippines',
-    subDetail: 'formerly IVP Global Inc.',
-    url: 'https://blotocol.com/',
-    position: 'Senior Software Engineer',
-    duration: 'Nov 2016 - Feb 2020',
+  Outsoar: {
+    name: 'Outsoar PH',
+    longName: 'Outsoar Philippines',
+    // subDetail: 'formerly IVP Global Inc.',
+    url: 'https://outsoar.ph/',
+    position: 'Junior Web Developer',
+    duration: 'April 2023 - Feb 2024',
     logo: {
-      light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-      dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
+      light: '/worked_at_logos/outsoar/outsoar_logo.png',
+      dark: '/worked_at_logos/outsoar/outsoar_logo.png',
     },
     roles: [
       <>
@@ -157,7 +157,7 @@ export const Experiences: {
 }
 
 export const ExperiencesList = [
-  Experiences.Deloitte,
-  Experiences.SCG,
-  Experiences.Blotocol,
+  Experiences.IE,
+  Experiences.Exlink,
+  Experiences.Outsoar,
 ]

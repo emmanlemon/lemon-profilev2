@@ -61,7 +61,7 @@ const Sidebar = () => {
             variant="accent"
             fontWeight="light"
           >
-            Ohh you found me?. Howdy! I am
+            Ohh you found me?. Hi! I am
           </MotionText>
           <MotionHeading
             as="h1"

@@ -13,6 +13,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 import {
+  SiLaravel,
   SiDotNet,
   SiJavascript,
   SiTypescript,
@@ -51,7 +52,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        I`ve been coding professionally for {professionalYears} years now and
+      I'm a skilled Web Developer, in Vue Js and Laravel with a passion for creating visually appealing and effective visual identities for companies worldwide. Let's start scrolling and discover more about me and my expertise. and learn more about me.
+        {/* I`ve been coding professionally for {professionalYears} years now and
         currently working as a <b>Software Engineer</b> that focuses on{' '}
         <b>architecture</b>, <b>APIs</b>,{' '}
         <Tooltip
@@ -63,7 +65,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <b>nitty-gritty business logics</b>
           </Text>
         </Tooltip>{' '}
-        and even <b>front end integration</b> stuff now, how time flies!
+        and even <b>front end integration</b> stuff now, how time flies! */}
         <br /> <br />
         Here are few technologies that are cup of my{' '}
         <Tooltip
@@ -81,8 +83,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       <SimpleGrid columns={2} spacing={4}>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDotNet} color={emphasis} fontSize="2em" />
-            C# - .NET.Core
+            <ListIcon as={SiLaravel} color={emphasis} fontSize="2em" />
+            Laravel
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiJavascript} color={emphasis} fontSize="2em" />
