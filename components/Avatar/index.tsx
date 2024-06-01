@@ -11,8 +11,8 @@ import { useEffect } from 'react'
 import { avatarAnimation } from 'config/animations'
 
 const AvatarImages = {
-  DarkMode: '/KL_avatar.png',
-  LightMode: './KL_avatar_light.png',
+  DarkMode: '/lemon_profile.jpg',
+  LightMode: './lemon_profile.jpg',
 }
 
 declare global {
