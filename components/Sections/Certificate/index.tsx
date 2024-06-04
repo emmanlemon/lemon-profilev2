@@ -8,13 +8,13 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-import FeaturedCard from './FeaturedCard'
+import CertificateCard from './CertificateCard'
 import { fadeInUpSlower, galleryStagger } from 'config/animations'
 import { mobileBreakpointsMap } from 'config/theme'
 const MotionGrid = motion(Grid)
 const MotionGridItem = motion(GridItem)
 
-const FeaturedWorksSection = () => {
+const CerificateSection = () => {
   const isMobile = useBreakpointValue(mobileBreakpointsMap)
   return (
     <Stack
@@ -28,7 +28,7 @@ const FeaturedWorksSection = () => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        Some of my works.
+        Certificate & Awards.
       </Heading>
       <Text variant="description">
         Check out some of the works I made at freelancing, company projects and
@@ -42,52 +42,37 @@ const FeaturedWorksSection = () => {
         variants={galleryStagger}
       >
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
+          <CertificateCard
             idx={1}
-            title="Exlink Ticketing System"
-            src="/works/exlink_work.png"
+            title="Programmer Of The Year"
+            src="/certificate/programmer_of_the_year.jpg"
             description="Japanese social media platform for travelers to show off their
           adventure to the world. I was incharge of Front end integration, made using React, Antd and Styled Components."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://tobira-app-test.netlify.app/"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
         </MotionGridItem>
 
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
+          <CertificateCard
             idx={2}
-            title="Outsoar 3.0"
+            title="Outsoar Completion"
             description="RSV is a smart contract (ERC20) powered reservation system. I am incharge of backend using NET.Core 2.1."
-            src="/works/outsoar_3.0.png"
+            src="/certificate/Outsoar_cert.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://solution.rsv.ltd/jp"
             isMobile={isMobile}
           />
         </MotionGridItem>
 
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
+          <CertificateCard
             idx={3}
-            title="Outsoar Tracker"
+            title="Web Design Champion"
             description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
-            src="/works/outsoar_tracker.png"
+            src="/certificate/IT_week.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://dev.agora-school.com"
             objectPosition="right 20%"
-            isMobile={isMobile}
-          />
-        </MotionGridItem>
-
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
-            idx={4}
-            title="ZOZO Project"
-            description="A Japanese Semi-conductor e-commerce made at my old place at IVP. I was working with backend using ASP.NET MVC"
-            src="/works/zozo.png"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://www.layla-ec.com/"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -96,4 +81,4 @@ const FeaturedWorksSection = () => {
   )
 }
 
-export default memo(FeaturedWorksSection)
+export default memo(CerificateSection)
