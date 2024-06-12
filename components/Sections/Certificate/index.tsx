@@ -46,8 +46,7 @@ const CerificateSection = () => {
             idx={1}
             title="Programmer Of The Year"
             src="/certificate/programmer_of_the_year.jpg"
-            description="Japanese social media platform for travelers to show off their
-          adventure to the world. I was incharge of Front end integration, made using React, Antd and Styled Components."
+            description="On August 16, amidst my talented colleagues, I was proudly awarded the esteemed title of Programmer of the Year on our campus. This recognition celebrates my relentless dedication and exceptional skills in programming, marking a significant milestone in my journey."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             objectPosition="right 20%"
             isMobile={isMobile}
@@ -58,7 +57,7 @@ const CerificateSection = () => {
           <CertificateCard
             idx={2}
             title="Outsoar Completion"
-            description="RSV is a smart contract (ERC20) powered reservation system. I am incharge of backend using NET.Core 2.1."
+            description="During my OJT at Outsoar, I gained a solid programming foundation. Ending my OJT on June 9, Outsoar promptly hired me as their employee, a testament to the skills and experience I acquired during my training."
             src="/certificate/Outsoar_cert.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             isMobile={isMobile}
@@ -69,7 +68,7 @@ const CerificateSection = () => {
           <CertificateCard
             idx={3}
             title="Web Design Champion"
-            description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
+            description="During IT Week on June 1-2, I won the Web Design Champion title. It shows I'm good at making cool websites, making me feel proud and happy about my work."
             src="/certificate/IT_week.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             objectPosition="right 20%"

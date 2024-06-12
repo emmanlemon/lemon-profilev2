@@ -46,10 +46,9 @@ const FeaturedWorksSection = () => {
             idx={1}
             title="Exlink Ticketing System"
             src="/works/exlink_work.png"
-            description="Japanese social media platform for travelers to show off their
-          adventure to the world. I was incharge of Front end integration, made using React, Antd and Styled Components."
+            description="Create an EXLINK Ticketing System using Svelte with TypeScript, designing interfaces, and ensuring efficient ticket management and timely notifications.            ."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://tobira-app-test.netlify.app/"
+            ctaUrl="https://exlink.com/"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
@@ -59,10 +58,10 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={2}
             title="Outsoar 3.0"
-            description="RSV is a smart contract (ERC20) powered reservation system. I am incharge of backend using NET.Core 2.1."
+            description="Develop OUTSOAR 3.0 using Nuxt.js, designing intuitive user interfaces, enhancing user experience, and ensuring efficient navigation and functionality for seamless performance."
             src="/works/outsoar_3.0.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://solution.rsv.ltd/jp"
+            ctaUrl="https://outsoar.ph/"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -71,7 +70,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={3}
             title="Outsoar Tracker"
-            description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
+            description="Develop OUTSOAR Tracker with Laravel, emphasizing efficient data handling, robust security measures, and seamless backend functionality for optimal performance and user experience."
             src="/works/outsoar_tracker.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://dev.agora-school.com"
@@ -83,11 +82,11 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={4}
-            title="ZOZO Project"
-            description="A Japanese Semi-conductor e-commerce made at my old place at IVP. I was working with backend using ASP.NET MVC"
+            title="AllOne Project"
+            description="As a backend developer, in All one I established an all-in-one tracking system to monitor employee work, utilizing Laravel to create APIs and integrate with the team seamlessly."
             src="/works/zozo.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://www.layla-ec.com/"
+            ctaUrl="https://zozo-staging-fe.iegaming.io/"
             isMobile={isMobile}
           />
         </MotionGridItem>
