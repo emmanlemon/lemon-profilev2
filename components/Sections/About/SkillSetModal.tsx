@@ -94,12 +94,12 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
         <ModalBody className={styles.skillModal}>
           <SkillList title="Backend Centric" columns={backendCols} />
           <SkillList title="Frontend Centric" columns={frontendCols} />
-          <SkillList title="CICD centric" columns={cicdCols} />
+          {/* <SkillList title="CICD centric" columns={cicdCols} /> */}
           <SkillList title="Database and Streams" columns={dataBaseCols} />
-          <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} />
+          {/* <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} /> */}
           <SkillList title="Mobile Development" columns={mobileCols} />
-          <SkillList title="Game Development" columns={gameCols} />
-          <SkillList title="Desktop App" columns={desktopCols} />
+          {/* <SkillList title="Game Development" columns={gameCols} />
+          <SkillList title="Desktop App" columns={desktopCols} /> */}
           <SkillList title="Productivity boosts" columns={productivityCols} />
         </ModalBody>
         <ModalFooter>

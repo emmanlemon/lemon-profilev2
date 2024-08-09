@@ -11,10 +11,10 @@ const OpenGraphHead = () => (
       content="Ohh you found me?. Howdy! I am Emmanuel Joshua Lemon Or you could call me Lemon. That works too . . . I am a Web Developer"
     />
     <meta property="og:type" content="profile" />
-    {/* <meta
+    <meta
       property="og:image"
-      content="https://kllawingco.netlify.app/KL_avatar.png"
-    ></meta> */}
+      content="https://w0.peakpx.com/wallpaper/943/193/HD-wallpaper-demon-slayer-anime-demon-slayer-thumbnail.jpg"
+    ></meta>
   </Head>
 )
 export default OpenGraphHead

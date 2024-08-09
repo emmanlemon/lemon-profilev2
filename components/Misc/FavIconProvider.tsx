@@ -9,7 +9,7 @@ const FavIconProvider = ({ children }: { children: JSX.Element }) => {
         <link
           rel="icon"
           href={
-            colorMode === 'dark' ? '/favicon.ico' : '/favicon-lightmode.ico'
+            colorMode === 'dark' ? '/logo_light.png' : '/logo_light.png'
           }
         />
         <meta charSet="utf-8" />

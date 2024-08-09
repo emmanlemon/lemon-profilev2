@@ -25,7 +25,7 @@ export const Experiences: {
     // subDetail: 'Consulthing Phils. Delivery Center',
     url: '',
     position: 'Backend Developer',
-    duration: 'Feb 2021 - Present',
+    duration: 'Feb 2024 - Present',
     logo: {
       light: '/worked_at_logos/ie_soft/ie_logo.png',
       dark: '/worked_at_logos/ie_soft/ie_logo.png',

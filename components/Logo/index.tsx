@@ -17,9 +17,9 @@ const Logo = () => {
         {colorMode === ThemeMode.Dark ? (
           <MotionImage
             className={!isMobile ? styles.logo : ''}
-            boxSize={isMobile ? '30px' : '50px'}
+            boxSize={isMobile ? '70px' : '80px'}
             objectFit="cover"
-            src="./logo.png"
+            src="./logo_light.png"
             alt="KL Lawingco Logo"
             fallbackSrc="./logo.png"
             variants={simpleOpacity}

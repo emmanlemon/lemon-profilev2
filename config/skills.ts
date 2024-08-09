@@ -32,6 +32,9 @@ import {
   SiUnity,
   SiMicrosoft,
   SiElectron,
+  SiFlutter,
+  SiSvelte,
+  SiTailwindcss
 } from 'react-icons/si'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
@@ -58,10 +61,10 @@ export const Skills: {
   [key in SkillCategory]: Skill[]
 } = {
   backend: [
-    {
-      name: 'C# - .NET.Core',
-      icon: SiDotNet,
-    },
+    // {
+    //   name: 'C# - .NET.Core',
+    //   icon: SiDotNet,
+    // },
     {
       name: 'Node',
       icon: SiNodeDotJs,
@@ -74,10 +77,10 @@ export const Skills: {
       name: 'Typescript',
       icon: SiTypescript,
     },
-    {
-      name: 'Graphql (JS, C#)',
-      icon: SiGraphql,
-    },
+    // {
+    //   name: 'Graphql (JS, C#)',
+    //   icon: SiGraphql,
+    // },
     {
       name: 'PHP (Wordpress, Slim)',
       icon: SiPhp,
@@ -85,7 +88,7 @@ export const Skills: {
   ],
   frontend: [
     {
-      name: 'React, RecoilJS',
+      name: 'React',
       icon: SiReact,
     },
     {
@@ -93,20 +96,16 @@ export const Skills: {
       icon: SiNextDotJs,
     },
     {
-      name: 'Apollo Graphql',
-      icon: SiApollographql,
+      name: 'Tailwind',
+      icon: SiTailwindcss,
     },
     {
-      name: 'Redux',
-      icon: SiRedux,
+      name: 'Svelte',
+      icon: SiSvelte,
     },
     {
       name: 'VueJS',
       icon: SiVueDotJs,
-    },
-    {
-      name: 'Ghost',
-      icon: SiGhost,
     },
   ],
   database: [
@@ -114,10 +113,10 @@ export const Skills: {
       name: 'PostgreSQL',
       icon: SiPostgresql,
     },
-    {
-      name: 'MsSQL',
-      icon: SiMicrosoftsqlserver,
-    },
+    // {
+    //   name: 'MsSQL',
+    //   icon: SiMicrosoftsqlserver,
+    // },
     {
       name: 'MySQL',
       icon: SiMysql,
@@ -126,18 +125,18 @@ export const Skills: {
       name: 'MongoDb',
       icon: SiMongodb,
     },
-    {
-      name: 'Redis',
-      icon: SiRedis,
-    },
-    {
-      name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
-    },
+    // {
+    //   name: 'Redis',
+    //   icon: SiRedis,
+    // },
+    // {
+    //   name: 'SocketIO',
+    //   icon: SiSocketDotIo,
+    // },
+    // {
+    //   name: 'Google Pubsub',
+    //   icon: SiGooglecloud,
+    // },
   ],
   cicd: [
     {
@@ -200,20 +199,20 @@ export const Skills: {
       name: 'Bash',
       icon: SiGnubash,
     },
-    {
-      name: 'SourceTree',
-      icon: FaSourcetree,
-    },
+    // {
+    //   name: 'SourceTree',
+    //   icon: FaSourcetree,
+    // },
   ],
   mobile: [
     {
-      name: 'React Native',
-      icon: SiReact,
+      name: 'Flutter',
+      icon: SiFlutter,
     },
-    {
-      name: 'Web PWA',
-      icon: IoLogoPwa,
-    },
+    // {
+    //   name: 'Web PWA',
+    //   icon: IoLogoPwa,
+    // },
   ],
   games: [
     {

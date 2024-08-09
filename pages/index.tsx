@@ -124,7 +124,7 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
             </FadeInLayout>
             <FadeInLayout>
               <Box
-                id="works"
+                id="certificates"
                 className="contentRow"
                 paddingTop={{ base: 0, lg: 20, xl: 20 }}
                 paddingBottom={{ base: 12, lg: 10 }}
@@ -134,7 +134,7 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
                 <Certificate />
               </Box>
             </FadeInLayout>
-            <FadeInLayout>
+            {/* <FadeInLayout>
               <Box
                 id="blog"
                 className="contentRow"
@@ -145,7 +145,7 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
               >
                 <DevToArticles articles={articles} />
               </Box>
-            </FadeInLayout>
+            </FadeInLayout> */}
             <FadeInLayout>
               <Box
                 id="contact"
