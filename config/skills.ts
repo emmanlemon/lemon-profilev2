@@ -82,7 +82,7 @@ export const Skills: {
     //   icon: SiGraphql,
     // },
     {
-      name: 'PHP (Wordpress, Slim)',
+      name: 'PHP',
       icon: SiPhp,
     },
   ],

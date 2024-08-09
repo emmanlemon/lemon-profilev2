@@ -30,6 +30,23 @@ const Sidebar = () => {
   const MotionButton = motion(Button)
   const MotionBox = motion(Box)
 
+  const onButtonClick = () => {
+        fetch("/Lemon_Resume.pdf").then((response) => {
+        response.blob().then((blob) => {
+        
+            // Creating new object of PDF file
+            const fileURL =
+                window.URL.createObjectURL(blob);
+                
+            // Setting various property values
+            let alink = document.createElement("a");
+            alink.href = fileURL;
+            alink.download = "Lemon_Resume.pdf";
+            alink.click();
+        });
+    });
+};
+
   return (
     <MotionBox
       initial="initial"
@@ -119,6 +136,7 @@ const Sidebar = () => {
             end integration, recently found myself studying UX too.
           </MotionText>
           <MotionButton
+            onClick={onButtonClick}
             size="lg"
             variant="outline"
             borderWidth="1px"
@@ -128,12 +146,12 @@ const Sidebar = () => {
             width="120px"
             variants={simpleOpacity}
             as={'a'}
-            href="mailto:emmanuellemon111200@gmail.com"
-            target="_blank"
+            // href="mailto:emmanuellemon111200@gmail.com"
+            // target="_blank"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Get in touch!
+            Download Resume!
           </MotionButton>
 
           <MotionBox d="flex" variants={simpleOpacity}>

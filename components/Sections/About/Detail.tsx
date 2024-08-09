@@ -14,14 +14,14 @@ import {
 } from '@chakra-ui/react'
 import {
   SiLaravel,
-  SiDotNet,
+  SiTailwindcss,
   SiJavascript,
   SiTypescript,
   SiGraphql,
   SiReact,
   SiNextDotJs,
-  SiNodeDotJs,
-  SiDocker,
+  SiMysql,
+  SiPhp,
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
@@ -96,14 +96,14 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
 
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNodeDotJs} color={emphasis} fontSize="2em" />
-            Node
+            <ListIcon as={SiMysql} color={emphasis} fontSize="2em" />
+            MySql
           </ListItem>
         </List>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiGraphql} color={emphasis} fontSize="2em" />
-            Graphql
+            <ListIcon as={SiTailwindcss} color={emphasis} fontSize="2em" />
+            Tailwind
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
@@ -114,8 +114,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             NextJS
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDocker} color={emphasis} fontSize="2em" />
-            Docker
+            <ListIcon as={SiPhp} color={emphasis} fontSize="2em" />
+            PHP
           </ListItem>
         </List>
         <Box>

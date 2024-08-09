@@ -51,6 +51,7 @@ const Avatar = () => {
       >
         <ChkImage
           src={imgAvatar}
+          borderRadius="30px"
           alt="KL Lawingco Avatar"
           htmlWidth="250"
           htmlHeight="250"
@@ -60,7 +61,7 @@ const Avatar = () => {
         <Text textAlign="center" fontSize="smaller" variant="description">
           Art by{' '}
           <Link
-            href="https://twitter.com/kojiro_ai"
+            href="https://lemon-profilev2.vercel.app/"
             target="_blank"
             aria-label="KojiroArt"
             rel="noreferrer"
