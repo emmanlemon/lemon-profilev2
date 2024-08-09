@@ -32,33 +32,20 @@ export const Experiences: {
     },
     roles: [
       <>
-       Contributed to the design and development of a comprehensive .NET payment integration project for a client
-       That covered credit card payments and subscription management.
-       Introduced Stripe as a new payment provider within the system architecture.
-       Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered APIs of the same client.
+        Create RESTful API endpoints using Laravel’s routing and controllers for
+        CRUD operations on users and resources.
       </>,
       <>
-        Worked as a Sitecore Backend on new{' '}
-        <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Deloitte Digital AU Site.
-        </Link>
+        Utilize Eloquent ORM to handle database interactions and ensure proper
+        data validation and security measures are in place.
       </>,
       <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sitecore 10 .NET Developer Certification.
-        </Link>
+        Develop unit and integration tests using Laravel’s testing framework to
+        verify functionality, handle edge cases, and ensure performance.
+      </>,
+      <>
+        Monitor API performance, fix any issues, and optimize the code and
+        database queries based on testing results and user feedback.
       </>,
     ],
   },
@@ -75,12 +62,25 @@ export const Experiences: {
     },
     roles: [
       <>
-        Created multiple Contentful and Bynder extensions to improve BX process
-        better.
+        Build responsive and dynamic user interfaces for the Exlink ticketing
+        system using Svelte's component-based architecture.
       </>,
       <>
-        Migrating of existing marketing email related tools and batch jobs from
-        Responsys into new platform called Braze.
+        Work closely with backend developers and designers to integrate
+        functionalities and ensure the frontend meets project requirements and
+        design standards.
+      </>,
+    //    <Link
+    //    aria-label="Sitecore 10 .NET Developer Certification"
+    //    href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
+    //    target="_blank"
+    //    rel="noreferrer"
+    //  >
+    //    Sitecore 10 .NET Developer Certification.
+    //  </Link>
+      <>
+        Implement Svelte’s reactive features and optimize components to enhance
+        performance and reduce load times for a smooth user experience.
       </>,
     ],
   },
@@ -97,21 +97,20 @@ export const Experiences: {
     },
     roles: [
       <>
-        Developed a Twitter Raffle Campaign / Contest Bot called Camps with
-        statistics similar to Facebook Ads.
+        Work on enhancing internal tools and systems, including developing new
+        features and fixing bugs to improve overall efficiency.{' '}
       </>,
       <>
-        In 2019 got promoted as Senior Software Engineer and worked with Cryto
-        Exchange, Smart Contracts and other APIs using several techs such as
-        NodeJS, .NET Core and React.
+        Integrate front-end components with back-end services, ensuring seamless
+        data flow and functionality across applications.{' '}
       </>,
       <>
-        Create highly scalable Japanese e-commerce sites. Most notable clients
-        were TV Tokyo, Layla EC using .NET.
+        Perform testing and debugging of web applications to identify and
+        resolve issues, ensuring a smooth and reliable user experience.{' '}
       </>,
       <>
-        Hired at 2016, Undergone Japanese language training first. Shortly
-        after, worked with in-house .NET MVC Framework called ERS.
+        Stay updated with industry best practices and new technologies, applying
+        them to improve project outcomes and personal development.
       </>,
     ],
   },
