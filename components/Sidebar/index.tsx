@@ -151,7 +151,7 @@ const Sidebar = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Download Resume!
+            My Resume!
           </MotionButton>
 
           <MotionBox d="flex" variants={simpleOpacity}>
