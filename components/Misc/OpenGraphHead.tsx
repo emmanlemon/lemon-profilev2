@@ -13,7 +13,7 @@ const OpenGraphHead = () => (
     <meta property="og:type" content="profile" />
     <meta
       property="og:image"
-      content="https://w0.peakpx.com/wallpaper/943/193/HD-wallpaper-demon-slayer-anime-demon-slayer-thumbnail.jpg"
+      content="https://lemon-profilev2.vercel.app/lemon_profile.jpg"
     ></meta>
   </Head>
 )
