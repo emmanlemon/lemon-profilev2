@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'IE' | 'Exlink' | 'Outsoar'
+export type Company = 'SAFC' | 'IE' | 'Exlink' | 'Outsoar'
 
 export type CompanyDetail = {
   name: string
@@ -19,13 +19,38 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
+  SAFC: {
+    name: 'SAFC',
+    longName: 'South AsiaLink Finance Corporation',
+    url: '',
+    position: 'Application Developer',
+    duration: 'August 2024 - Present',
+    logo: {
+      light: '/worked_at_logos/safc/SAFC-logo.png',
+      dark: '/worked_at_logos/safc/SAFC-logo.png',
+    },
+    roles: [
+      <>
+        Designed and implemented RESTful API endpoints using Express.js to handle CRUD operations on users and other resources within the Loan Origination System (LOS).
+      </>,
+      <>
+        Built the frontend of the LOS using React, creating dynamic and interactive user interfaces that improve user experience.
+      </>,
+      <>
+       Used Prisma ORM to handle complex database interactions, ensuring data integrity and security.
+      </>,
+      <>
+       Monitored API performance using tools like Postman and optimized backend queries and frontend state management based on testing results and user feedback.
+      </>,
+    ],
+  },
   IE: {
     name: 'IE',
     longName: 'IE Soft Technology',
     // subDetail: 'Consulthing Phils. Delivery Center',
     url: '',
     position: 'Backend Developer',
-    duration: 'Feb 2024 - Present',
+    duration: 'February 2024 - August 2024',
     logo: {
       light: '/worked_at_logos/ie_soft/ie_logo.png',
       dark: '/worked_at_logos/ie_soft/ie_logo.png',
@@ -46,6 +71,36 @@ export const Experiences: {
       <>
         Monitor API performance, fix any issues, and optimize the code and
         database queries based on testing results and user feedback.
+      </>,
+    ],
+  },
+   Outsoar: {
+    name: 'Outsoar PH',
+    longName: 'Outsoar Philippines',
+    // subDetail: 'formerly IVP Global Inc.',
+    url: 'https://outsoar.ph/',
+    position: 'Junior Web Developer',
+    duration: 'April 2023 - February 2024',
+    logo: {
+      light: '/worked_at_logos/outsoar/outsoar_logo.png',
+      dark: '/worked_at_logos/outsoar/outsoar_logo.png',
+    },
+    roles: [
+      <>
+        Work on enhancing internal tools and systems, including developing new
+        features and fixing bugs to improve overall efficiency.{' '}
+      </>,
+      <>
+        Integrate front-end components with back-end services, ensuring seamless
+        data flow and functionality across applications.{' '}
+      </>,
+      <>
+        Perform testing and debugging of web applications to identify and
+        resolve issues, ensuring a smooth and reliable user experience.{' '}
+      </>,
+      <>
+        Stay updated with industry best practices and new technologies, applying
+        them to improve project outcomes and personal development.
       </>,
     ],
   },
@@ -84,39 +139,10 @@ export const Experiences: {
       </>,
     ],
   },
-  Outsoar: {
-    name: 'Outsoar PH',
-    longName: 'Outsoar Philippines',
-    // subDetail: 'formerly IVP Global Inc.',
-    url: 'https://outsoar.ph/',
-    position: 'Junior Web Developer',
-    duration: 'April 2023 - Feb 2024',
-    logo: {
-      light: '/worked_at_logos/outsoar/outsoar_logo.png',
-      dark: '/worked_at_logos/outsoar/outsoar_logo.png',
-    },
-    roles: [
-      <>
-        Work on enhancing internal tools and systems, including developing new
-        features and fixing bugs to improve overall efficiency.{' '}
-      </>,
-      <>
-        Integrate front-end components with back-end services, ensuring seamless
-        data flow and functionality across applications.{' '}
-      </>,
-      <>
-        Perform testing and debugging of web applications to identify and
-        resolve issues, ensuring a smooth and reliable user experience.{' '}
-      </>,
-      <>
-        Stay updated with industry best practices and new technologies, applying
-        them to improve project outcomes and personal development.
-      </>,
-    ],
-  },
 }
 
 export const ExperiencesList = [
+  Experiences.SAFC,
   Experiences.IE,
   Experiences.Exlink,
   Experiences.Outsoar,

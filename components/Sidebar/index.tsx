@@ -132,8 +132,8 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>
-            <br />I am software engineer that specializes at backend apis, front
-            end integration, recently found myself studying UX too.
+            <br />I am Web Developer that specializes at backend apis, front
+            end integration.
           </MotionText>
           <MotionButton
             onClick={onButtonClick}

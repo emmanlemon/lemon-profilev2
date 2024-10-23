@@ -90,6 +90,20 @@ const FeaturedWorksSection = () => {
             isMobile={isMobile}
           />
         </MotionGridItem>
+
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={5}
+            title="SAFC CRM Project"
+            description="Build the SAFC CRM on-premise solution using Express and React, focusing on a scalable architecture, real-time data handling, strong authentication measures, and a user-friendly interface."
+            src="works/SAFC.png"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            // ctaUrl="https://dev.agora-school.com"
+            objectPosition="right 20%"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
+
       </MotionGrid>
     </Stack>
   )

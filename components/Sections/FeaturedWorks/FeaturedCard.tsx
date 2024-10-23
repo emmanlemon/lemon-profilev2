@@ -20,12 +20,12 @@ export type FeaturedCardProps = {
   // Still can't find what's correct value for responsive value
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   height: string | ResponsiveValue<any>
-  src: string
+  src?: string
   idx: number
   title: string
   description: string
   objectPosition?: string
-  ctaUrl: string
+  ctaUrl?: string | null
   isMobile?: boolean
 }
 
@@ -63,7 +63,7 @@ const ProjectDescription = ({
   idx?: number
   title: string
   description: string
-  ctaUrl: string
+  ctaUrl?: string | null
   isLeft: boolean
 }) => (
   <Container
@@ -107,19 +107,19 @@ const ProjectDescription = ({
     >
       {description}
     </Text>
-    <Button
+    {ctaUrl !== "" && <Button
       variant="outlineAlternative"
       fontWeight="light"
       fontSize={{ base: 'sm', '2xl': 'md' }}
       size="sm"
       as="a"
-      href={ctaUrl}
+      href={ctaUrl || ""}
       rel="noreferrer"
       target="_blank"
       marginY={{ base: 3, md: 0 }}
     >
       View Project
-    </Button>
+    </Button>}
   </Container>
 )
 

@@ -41,6 +41,17 @@ const CerificateSection = () => {
         gap={{ base: 5, md: 6 }}
         variants={galleryStagger}
       >
+            <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <CertificateCard
+            idx={1}
+            title="SAFC MVP Certificate"
+            src=""
+            description="On August 16, amidst my talented colleagues, I was proudly awarded the esteemed title of Programmer of the Year on our campus. This recognition celebrates my relentless dedication and exceptional skills in programming, marking a significant milestone in my journey."
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            objectPosition="right 20%"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <CertificateCard
             idx={1}
