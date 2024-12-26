@@ -103,7 +103,18 @@ const FeaturedWorksSection = () => {
             isMobile={isMobile}
           />
         </MotionGridItem>
-
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={6}
+            title="SAFC Ticketing System"
+            description="
+I led the development of SAFC’s ticketing system, using React for the frontend and Laravel for the backend. Solely handling backend development, I ensured seamless API integration, secure data management, and scalable architecture, delivering an efficient and user-friendly solution."
+            src="/works/ticketing-safc.png"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            // ctaUrl="https://zozo-staging-fe.iegaming.io/"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
       </MotionGrid>
     </Stack>
   )

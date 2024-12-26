@@ -46,7 +46,7 @@ const CerificateSection = () => {
             idx={1}
             title="SAFC MVP Certificate"
             src="/certificate/Safc_logo.jpg"
-            description="On August 16, amidst my talented colleagues, I was proudly awarded the esteemed title of Programmer of the Year on our campus. This recognition celebrates my relentless dedication and exceptional skills in programming, marking a significant milestone in my journey."
+            description="Receiving the MVP Certificate at SAFC during my first month of work is an incredible honor. It reflects my dedication and contributions to the team. Achieving this milestone motivates me to continue striving for excellence and delivering impactful results in future projects."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             objectPosition="right 20%"
             isMobile={isMobile}
@@ -54,7 +54,7 @@ const CerificateSection = () => {
         </MotionGridItem>
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <CertificateCard
-            idx={1}
+            idx={2}
             title="Programmer Of The Year"
             src="/certificate/programmer_of_the_year.jpg"
             description="On August 16, amidst my talented colleagues, I was proudly awarded the esteemed title of Programmer of the Year on our campus. This recognition celebrates my relentless dedication and exceptional skills in programming, marking a significant milestone in my journey."
@@ -66,7 +66,7 @@ const CerificateSection = () => {
 
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <CertificateCard
-            idx={2}
+            idx={3}
             title="Outsoar Completion"
             description="During my OJT at Outsoar, I gained a solid programming foundation. Ending my OJT on June 9, Outsoar promptly hired me as their employee, a testament to the skills and experience I acquired during my training."
             src="/certificate/Outsoar_cert.png"
@@ -77,7 +77,7 @@ const CerificateSection = () => {
 
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <CertificateCard
-            idx={3}
+            idx={4}
             title="Web Design Champion"
             description="During IT Week on June 1-2, I won the Web Design Champion title. It shows I'm good at making cool websites, making me feel proud and happy about my work."
             src="/certificate/IT_week.jpg"
