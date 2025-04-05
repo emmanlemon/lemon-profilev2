@@ -17,7 +17,6 @@ import {
   SiTailwindcss,
   SiJavascript,
   SiTypescript,
-  SiGraphql,
   SiReact,
   SiNextDotJs,
   SiMysql,
@@ -32,9 +31,6 @@ type ISkillSetModal = {
 
 const Detail = ({ onOpen }: ISkillSetModal) => {
   const emphasis = useColorModeValue('teal.500', 'cyan.200')
-  const currentYear = new Date().getFullYear()
-  const professionalYears = currentYear - 2016
-
   return (
     <Stack
       width={{ base: '100%', lg: '70%' }}

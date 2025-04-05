@@ -23,7 +23,7 @@ export const Experiences: {
     name: 'SAFC',
     longName: 'South AsiaLink Finance Corporation',
     url: '',
-    position: 'Application Developer',
+    position: 'Full Stack Development Supervisor',
     duration: 'August 2024 - Present',
     logo: {
       light: '/worked_at_logos/safc/SAFC-logo.png',

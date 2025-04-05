@@ -15,6 +15,7 @@ import {
 import { motion } from 'framer-motion'
 import styles from './styles.module.css'
 import { easing, DURATIONS } from 'config/animations'
+import ProjectView from './FeaturedDrawer'
 
 export type FeaturedCardProps = {
   // Still can't find what's correct value for responsive value
@@ -52,7 +53,12 @@ const variants = {
 }
 
 const MotionImage = motion(Image)
-
+const images = [
+  { src: '/works/fmv_work.png', alt: 'Project Image 1' , title: 'Project 12'},
+  { src: '/works/exlink_work.png', alt: 'Project Image 2'  , title: 'Project 1222'},
+  { src: '/works/exlink_work.png', alt: 'Project Image 3'  , title: 'Project 1'},
+  // add more images as needed
+];
 const ProjectDescription = ({
   idx,
   title,
@@ -107,19 +113,7 @@ const ProjectDescription = ({
     >
       {description}
     </Text>
-    {ctaUrl !== "" && <Button
-      variant="outlineAlternative"
-      fontWeight="light"
-      fontSize={{ base: 'sm', '2xl': 'md' }}
-      size="sm"
-      as="a"
-      href={ctaUrl || ""}
-      rel="noreferrer"
-      target="_blank"
-      marginY={{ base: 3, md: 0 }}
-    >
-      View Project
-    </Button>}
+   <ProjectView ctaUrl={ctaUrl} images={images}/>
   </Container>
 )
 

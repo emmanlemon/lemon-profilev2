@@ -115,6 +115,30 @@ I led the development of SAFC’s ticketing system, using React for the frontend
             isMobile={isMobile}
           />
         </MotionGridItem>
+        <MotionGridItem colSpan={7} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={7}
+            title="SAFC Fair Market Value"
+            description="
+I led the development of SAFC’s ticketing system, using React for the frontend and Laravel for the backend. Solely handling backend development, I ensured seamless API integration, secure data management, and scalable architecture, delivering an efficient and user-friendly solution."
+            src="/works/fmv_work.png"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            // ctaUrl="https://zozo-staging-fe.iegaming.io/"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
+        <MotionGridItem colSpan={8} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={8}
+            title="SAFC Employee Management"
+            description="
+I led the development of SAFC’s ticketing system, using React for the frontend and Laravel for the backend. Solely handling backend development, I ensured seamless API integration, secure data management, and scalable architecture, delivering an efficient and user-friendly solution."
+            src="/works/hr_work.png"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            // ctaUrl="https://zozo-staging-fe.iegaming.io/"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
       </MotionGrid>
     </Stack>
   )

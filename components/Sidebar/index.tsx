@@ -117,7 +117,7 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-           Mid Web Developer
+           Full Stack Developer
           </MotionHeading>
 
           <MotionText
