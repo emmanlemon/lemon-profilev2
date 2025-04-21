@@ -115,7 +115,7 @@ I led the development of SAFC’s ticketing system, using React for the frontend
             isMobile={isMobile}
           />
         </MotionGridItem>
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+        {/* <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={7}
             title="SAFC Fair Market Value"
@@ -138,7 +138,7 @@ I led the development of SAFC’s ticketing system, using React for the frontend
             // ctaUrl="https://zozo-staging-fe.iegaming.io/"
             isMobile={isMobile}
           />
-        </MotionGridItem>
+        </MotionGridItem> */}
       </MotionGrid>
     </Stack>
   )
