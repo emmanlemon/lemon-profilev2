@@ -113,7 +113,7 @@ const ProjectDescription = ({
     >
       {description}
     </Text>
-   {/* <ProjectView ctaUrl={ctaUrl} images={images}/> */}
+   <ProjectView ctaUrl={ctaUrl} images={images}/>
   </Container>
 )
 
