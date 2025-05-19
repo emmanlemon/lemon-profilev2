@@ -91,7 +91,7 @@ const FeaturedWorksSection = () => {
           />
         </MotionGridItem>
 
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+        {/* <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={5}
             title="SAFC CRM Project"
@@ -102,10 +102,10 @@ const FeaturedWorksSection = () => {
             objectPosition="right 20%"
             isMobile={isMobile}
           />
-        </MotionGridItem>
+        </MotionGridItem> */}
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={6}
+            idx={5}
             title="SAFC Ticketing System"
             description="
 I led the development of SAFC’s ticketing system, using React for the frontend and Laravel for the backend. Solely handling backend development, I ensured seamless API integration, secure data management, and scalable architecture, delivering an efficient and user-friendly solution."
@@ -117,7 +117,7 @@ I led the development of SAFC’s ticketing system, using React for the frontend
         </MotionGridItem>
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={7}
+            idx={6}
             title="SAFC Fair Market Value"
             description="
 I led the development of SAFC’s ticketing system, using React for the frontend and Laravel for the backend. Solely handling backend development, I ensured seamless API integration, secure data management, and scalable architecture, delivering an efficient and user-friendly solution."
@@ -129,7 +129,7 @@ I led the development of SAFC’s ticketing system, using React for the frontend
         </MotionGridItem>
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={8}
+            idx={7}
             title="SAFC Employee Management"
             description="
 I led the development of SAFC’s ticketing system, using React for the frontend and Laravel for the backend. Solely handling backend development, I ensured seamless API integration, secure data management, and scalable architecture, delivering an efficient and user-friendly solution."
@@ -141,7 +141,7 @@ I led the development of SAFC’s ticketing system, using React for the frontend
         </MotionGridItem>
          <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={9}
+            idx={8}
             title="SAFC Lead Management"
             description="
 I led the development of SAFC’s ticketing system, using React for the frontend and Laravel for the backend. Solely handling backend development, I ensured seamless API integration, secure data management, and scalable architecture, delivering an efficient and user-friendly solution."
