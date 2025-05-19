@@ -91,7 +91,7 @@ const FeaturedWorksSection = () => {
           />
         </MotionGridItem>
 
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+        {/* <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={5}
             title="SAFC CRM Project"
@@ -114,7 +114,7 @@ I led the development of SAFC’s ticketing system, using React for the frontend
             // ctaUrl="https://zozo-staging-fe.iegaming.io/"
             isMobile={isMobile}
           />
-        </MotionGridItem>
+        </MotionGridItem> */}
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={7}
