@@ -91,7 +91,7 @@ const FeaturedWorksSection = () => {
           />
         </MotionGridItem>
 
-        {/* <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={5}
             title="SAFC CRM Project"
@@ -102,7 +102,7 @@ const FeaturedWorksSection = () => {
             objectPosition="right 20%"
             isMobile={isMobile}
           />
-        </MotionGridItem> */}
+        </MotionGridItem>
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={6}
