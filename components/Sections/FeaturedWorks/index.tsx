@@ -102,7 +102,7 @@ const FeaturedWorksSection = () => {
             objectPosition="right 20%"
             isMobile={isMobile}
           />
-        </MotionGridItem>
+        </MotionGridItem> */}
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={6}
@@ -114,7 +114,7 @@ I led the development of SAFC’s ticketing system, using React for the frontend
             // ctaUrl="https://zozo-staging-fe.iegaming.io/"
             isMobile={isMobile}
           />
-        </MotionGridItem> */}
+        </MotionGridItem>
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={7}
