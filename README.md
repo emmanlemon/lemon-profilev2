@@ -1,66 +1,76 @@
-# KL Lawingco's Personal Site
+# Emmanuel Joshua Lemon - Portfolio
 
-Hey there! KL here. This is a v2 of my portfolio site, a complete rewrite from v1 which is shamefully a template I edited a bit back on 2018. I wanted to try out what I can do on my own in regards to UI and UX design so I reckon why not start with my porfolio.
+Personal portfolio for Emman "Lemon", Full Stack Development Supervisor at South AsiaLink Finance Corporation.
 
-This is written in Typescript using [Next.js](https://nextjs.org/), as a SSG tool. It utilizes [ChakraUI](https://chakra-ui.com/) as well as  [Framer Motion](https://www.framer.com/motion/) for animations.
+Built with [Next.js 15](https://nextjs.org/) (App Router), [React 19](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/) and animated components from [React Bits](https://reactbits.dev/).
 
+## Getting started
 
-This contains bits of my details. In future I am planning to get this to cater my own blog too but for now will use dev.to links. 
-
-Site is Currently deployed at <b>Netlify</b>'s Free tier .
-
-> Build Status 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4a91d5f6-a717-4b60-9f92-82c11745f2e8/deploy-status)](https://app.netlify.com/sites/kllawingco/deploys)
-
-
-## Demo
-
-<img src="./public/demo.gif" alt="DEMO" />
-
-
-## Local Development
-
-This is just a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-Please use atleast Node v12, but the recommended version is Node v14 LTS. There's a `.nvmrc`, you can run `nvm use` if you have nvm installed.
-
-## Getting Started
-
-This project heavily favors <b>yarn</b> over npm. 
-
-So to set things up you need to run
+Requires Node 18.18 or newer (Node 22 recommended, see `.nvmrc`).
 
 ```bash
-yarn install
-```
-or just
-```bash
-yarn
+npm install
+npm run dev
 ```
 
-Then to run the development server:
+Open <http://localhost:3000>.
 
-```bash
-yarn dev
+Other scripts:
+
+| Script              | What it does                        |
+| ------------------- | ----------------------------------- |
+| `npm run build`     | Production build                    |
+| `npm run start`     | Serve the production build          |
+| `npm run lint`      | ESLint (Next.js + TypeScript rules) |
+| `npm run typecheck` | `tsc --noEmit`                      |
+| `npm run format`    | Prettier                            |
+
+## Editing content
+
+All copy lives in plain TypeScript files under `data/`, so you never need to touch a component to update the site:
+
+| File                   | Controls                                                          |
+| ---------------------- | ----------------------------------------------------------------- |
+| `data/profile.ts`      | Name, title, bio, roles, email, resume, socials, stats, highlights |
+| `data/skills.ts`       | Skill groups and the tech marquee under the hero                   |
+| `data/experience.ts`   | Work history timeline                                             |
+| `data/projects.ts`     | Project cards and the detail dialog                               |
+| `data/certificates.ts` | Awards & certificates                                             |
+| `data/nav.ts`          | Navbar links and section order                                    |
+
+Images go in `public/` and are referenced by path (for example `/works/lead_work.png`).
+
+## Project structure
+
+```
+app/                  App Router entry: layout (fonts, theme, metadata), page, global CSS
+components/
+  reactbits/          Vendored React Bits components (Aurora, SplitText, SpotlightCard, ...)
+  layout/             Navbar, footer, theme provider/toggle, section heading
+  sections/           Hero, About, Skills, Experience, Projects, Awards, Contact
+  ui/                 Shared bits (social links, project modal)
+data/                 Site content (see above)
+lib/                  Small hooks and helpers
+public/               Static assets (photos, logos, resume)
 ```
 
-and it should open at
+### React Bits components used
 
-> http://localhost:3000/
+- Backgrounds: `Aurora`
+- Text: `SplitText`, `BlurText`, `RotatingText`, `GradientText`, `CountUp` (`ShinyText` is vendored and ready to use)
+- Components: `SpotlightCard`, `TiltedCard`, `LogoLoop`
+- Animations: `AnimatedContent`, `FadeContent`, `StarBorder`, `Magnet`, `GlareHover`, `ClickSpark`
 
+They are copied into `components/reactbits/` (the TS + Tailwind variants) with small tweaks noted at the top of each file, so they can be customised freely.
+
+## Theme
+
+Dark mode is the default with a light mode toggle in the navbar (`next-themes`). Colours are CSS variables in `app/globals.css` and exposed to Tailwind as `bg`, `fg`, `muted`, `card`, `border`, `accent` and `accent2`.
+
+## Analytics (optional)
+
+Copy `.env.sample` to `.env.local` and set `NEXT_PUBLIC_ANALYTICS_ID` to a GA4 measurement id. Leave it empty to disable analytics.
 
 ## Deployment
 
-Nothing special, its setup at Netlify end (in other words: no `netlify.toml`), just merge a feat branch to master branch and you're good. 
-
-
-## Credits
-
-Logo and Avatar are made by my friend : <b>KojiroArt</b>.
-Please check him out at his [`twitter`](https://twitter.com/kojiro_ai) account.  
-
-And of course 
-Made with Love and :coffee:
-
-KL 
+Deployed on Vercel. Push to `master` and Vercel builds it automatically.
